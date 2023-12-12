@@ -1,0 +1,25 @@
+# #Area and circumference of Circle
+# r=int(input("enter radius of circle:"))
+# area=3.14*r*r
+# circumference=2*3.14*r
+# print(f"Area of cirle:{area}")
+# print(f"Circumference of circle:{circumference}")
+# #Procedure 1.Get radius, 2. Calculate area and circumference using formula, 3.Print results
+
+# #Area of rectangle
+# print("To find area of rectangle")
+# l=int(input("enter length:"))
+# b=int(input("enter breadth:"))
+# area=l*b
+# perimeter=2*(l+b)
+# print(f"Area of rectangle:{area}")
+# print(f"Perimeter of rectangle:{perimeter}")
+# #Procedure 1.Get length and breadth, 2.Calculate area and perimeter using formula, 3.Print results
+
+#Area of square using function
+def area_of_square(side):
+    area=side*side
+    print(f"Area of given square:{area} sq units")
+side=int(input("enter side:"))
+area_of_square(side)
+
