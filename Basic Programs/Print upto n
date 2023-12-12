@@ -1,16 +1,43 @@
-#print upto n numbers using while loop
-n=int(input("enter last number to be printed:"))
-i=0
-while i<=n-1:
-    print(i+1)
-    i+=1
-#Steps 1.Get n, 
-# 2.Initialize i as 0, 
-# 3.Create while loop with condn. i<=n-1(since we are initialising n as 0), 
-# 4.Inside while loop, 4.1.Print i+1, 4.2.Increment i by 1
+n=int(input("enter number:"))
+# #print upto n numbers using while loop
+# i=0
+# while i<=n-1:
+#     print(i+1)
+#     i+=1
+# #Steps 1.Get n, 
+# # 2.Initialize i as 0, 
+# # 3.Create while loop with condn. i<=n-1(since we are initialising n as 0), 
+# # 4.Inside while loop, 4.1.Print i+1, 4.2.Increment i by 1
 
-#print upto n numbers using for loop
-n=int(input("enter last number to be printed:"))
-for i in range(0,n):
-    print(i)
-#Steps 1.Get n, 2.Initialise a for loop with range (0,n), 3.Inside for loop, print i
+# #print upto n numbers using for loop
+# for i in range(0,n):
+#     print(i)
+# #Steps 1.Get n, 2.Initialise a for loop with range (0,n), 3.Inside for loop, print i
+
+# #print even and odd numbers upto n using if condn. and for loop
+# for i in range(0,n):
+#     if i%2==0:
+#         print(i)
+# print()
+# for i in range(0,n):
+#     if i%2!=0:
+#         print(i)
+# #Steps 1.Get n, 2.Create a for loop with range (0,n), 
+# # 3. Inside the loop, print i if i modulo 2 is 0 or not for even and odd resp.
+
+# #print squares upto n using while loop
+# i=1
+# while i<=n:
+#     print(i*i)
+#     i+=1
+# #Steps 1.Get n, 
+# # 2.Create while loop after initialising a variable i with value 1, 
+# # 3. Inside while loop, print i*i, 
+# # 4.Increment i by 1
+
+#Multiplication table of given number upto num
+num=int(input("enter number upto which you want your values:"))
+for i in range(1,num+1):
+    print(i*n)
+
+
