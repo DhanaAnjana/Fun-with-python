@@ -1,0 +1,45 @@
+# #Reverse a string using function
+# string="HI THIS IS DHANA ANJANA"
+# list=string.split()
+# print("List before reversal:",list)
+# list=list.reverse()
+# print("List after reversal:",list)
+# #Steps 1.Create a string with multiple characters, 
+# # 2.Use the inbuilt fn (string.split()) to split the words in the strings and assign it to a list
+# # 3.print the list with elements as words in list before reversal
+# # 4.Reverse the words by using (list.reverse()) and assign the reversed list to the same list
+# # 5.print the list with reversed elements as list after reversal
+
+# #Checking for a palindrome
+# string=input("enter a string:")
+# if(string==string[::-1]):
+#     print(f"{string} is a palindrome")
+# else:
+#     print(f"{string} is not a palindrome")
+# #Steps 1.Get a string from user, 
+# # 2.Use if condn (string==string[::-1]{uses string slicing to check}), 
+# # 3.If condn. satisfies, print palindrome, 
+# # 4.else, print not palindrome
+
+# #Count character count in a string
+# string="Hello World"
+# count=0
+# for i in string:
+#     if i==" ":
+#         continue
+#     count+=1
+# print("No. of characters:",count)
+# #Steps 1.Assign string with a test string like "hello world", 
+# # 2.Initialize count variable as 0, 
+# # 3.Create a for loop which checks each character in string
+# # 4.Inside for loop, check condn i==" " (for eliminating spaces), if condn. satisfies, continue(skip that character)
+# # 5.Otherwise, increment count by 1
+# # 6.Print No. of characters as count
+
+#Replace a character in a string
+string="Hello world"
+print(string.replace("w","W"))
+print(string.replace("Hello","Your"))
+string="Welcome to the AIHT"
+print(string.replace("e","a"))
+print(string.replace("ek","a",3))
