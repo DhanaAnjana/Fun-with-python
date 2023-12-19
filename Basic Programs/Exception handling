@@ -1,0 +1,22 @@
+def zero_exception():
+    try:
+        x=int(input("Enter numerator:"))
+        y=int(input("Enter denominator:"))
+        print(x/y)
+    except Exception as e:
+        print("Error:divided by zero!")
+zero_exception()
+
+def valid_age():
+    try:
+        age=int(input("Enter age:"))
+        if age>18:
+            print("Eligible to vote")
+        else:
+            print("Not eligible to vote")
+    except Exception as e:
+        print("Enter valid choice")
+valid_age()
+
+
+
