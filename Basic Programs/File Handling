@@ -3,9 +3,7 @@ with open("C:\\Users\\Exam\\Documents\\Dhana Anjana I-CSE-A\\19.12.2023 Programs
         for line in f:
             f1.write(line)
 
-# test_string="HI I AM A STUDENT"
-# print("the original string is:"+test_string)
-# res=len(test_string.split())
-# print("No. of words in string is:",str(res))
-            
-#C:\\Users\\Exam\\Documents\\Dhana Anjana I-CSE-A\\19.12.2023 Programs\\test.txt.txt
+test_string="HI I AM A STUDENT"
+print("the original string is:"+test_string)
+res=len(test_string.split())
+print("No. of words in string is:",str(res))
